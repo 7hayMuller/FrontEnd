@@ -1,0 +1,25 @@
+.row {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mapa {
+    float: center;
+}
+
+.endereco {
+    float: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.desenho-mapa {
+    border: 2px solid #1d2731;
+    margin-left: 6%;
+}

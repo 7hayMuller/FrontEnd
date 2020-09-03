@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>VH Corretora</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main-cont.css">
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" href="css\comochegar.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <script src="js\script.js"></script>
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-2">
+                    <img id="logo" src="img\logo\logo.png" alt="Logo">
+                </div>
+                <div class="col-md-10">
+                    <div id='cssmenu'>
+                        <ul>
+                            <li id="login"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                            <li id="logout"><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                            <li><a href='faleconosco.html'>Fale conosco</a></li>
+                            <li><a href='comochegar.html'>Como chegar</a></li>
+                            <li class='active'><a href='#'>Sobre</a>
+                                <ul>
+                                    <li><a href='sobre.html'>Quem somos</a></li>
+
+                                    <li><a href='sobre.html#servicos'>Serviços</a></li>
+                                </ul>
+                            </li>
+                            <li class='active'><a href='#'>Imóveis</a>
+                                <ul>
+                                    <li><a href='#'>Aluguel</a>
+                                        <ul>
+                                            <li><a href='imoveis.html#residencial-aluguel'>Residenciais</a></li>
+                                            <li><a href='imoveis.html#comercial-aluguel'>Comerciais</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href='#'>Venda</a>
+                                        <ul>
+                                            <li><a href='imoveis.html#residencial-venda'>Residenciais</a></li>
+                                            <li><a href='imoveis.html#comercial-venda'>Comerciais</a></li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li><a href='index.html'>Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <h1>Como chegar</h1>
+    <div class="mapa">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="desenho-mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1842.945409644792!2d-43.17342094204452!3d-22.508279196303977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99a7ffb55a8b37%3A0x9b11eb46d28f339e!2sRua%20do%20Imperador%2C%20264%20-%20402%20-%20Centro%2C%20Petr%C3%B3polis%20-%20RJ%2C%2025620-000!5e0!3m2!1spt-BR!2sbr!4v1598978501730!5m2!1spt-BR!2sbr"
+                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <div class="endereco">
+        <div class="row">
+            <div class="col-md-12">
+
+                Rua do Imperador, 264 sala 402<br> Centro - Petrópolis/RJ<br> CEP: 25620-000
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="container-fluid text-center">
+        <div class="rodape">
+            <div class="rodape-contatos">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img id="telefone" src="img\icones\telefone.png" alt="Telefone">
+                        <a href="tel:2422470524">(24) 2247-0524</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="zap" src="img\icones\zap.png" alt="Whatsapp">
+                        <a href="tel:24992786546">(24) 99278-6546</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="email" src="img\icones\email.png" alt="Email">
+                        <a href="mailto:fabiene.avilla@gmail.com">fabiene.avilla@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="rodape-social">
+                    <div class="col-md-6">
+                        <a href="http://facebook.com" target="_blank"><img id="facebook" src="img\icones\facebook.png" alt="facebook"></a>
+                        <a href="http://instagram.com" target="_blank"><img id="instagram" src="img\icones\instagram.png" alt="Instagram"></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#cssmenu"><img id="home" src="img\icones\seta.png" alt="Home"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+<script src="js/index.js"></script>
+<script src="js/login.js"></script>
+<script src="js/cadastro.js"></script>
+
+</html>
