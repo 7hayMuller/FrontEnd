@@ -1,0 +1,40 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+*{
+    font-family: Montserrat, sans-serif;
+}
+
+.row {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.mapa {
+    float: center;
+}
+
+.endereco {
+    float: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.desenho-mapa {
+    border: 2px solid #1d2731;
+    margin-left: 6%;
+}
+
+.bg-color{
+    width: 100%;
+    background: rgba(33, 12, 165, 0.8);
+    background: -webkit-linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(183, 183, 189, 0.8));
+    background: -o-linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(199, 199, 233, 0.8));
+    background: -moz-linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(199, 199, 233, 0.8));
+    background: linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(199, 199, 233, 0.8));
+
+}

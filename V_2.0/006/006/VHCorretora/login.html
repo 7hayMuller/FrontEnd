@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VH Corretora</title>
+
+    <style rel="stylesheet">
+        html body {
+            background-image: url(img/background/background.png);
+            background-position: center;
+            
+        }
+    </style>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main-cont.css">
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js\script.js"></script>
+
+</head>
+
+<body>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+
+    <header>
+        <div class="cabecalho">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img id="logo" src="img\logo\logo.png" alt="Logo da empresa VH Corretora">
+                    </div>
+                    <div class="col-md-10">
+                        <div id='cssmenu'>
+                            <ul>
+                                <li id="login"><a href="login.html"><span class="glyphicon glyphicon-log-in"></span>
+                                        Login</a></li>
+                                <li id="logout"><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
+                                </li>
+                                <li><a href='faleconosco.html'>Fale conosco</a></li>
+                                <li><a href='comochegar.html'>Como chegar</a></li>
+                                <li class='active'><a href='#'>Sobre</a>
+                                    <ul>
+                                        <li><a href='sobre.html'>Quem somos</a></li>
+                                        <li><a href='sobre.html#servicos'>Serviços</a></li>
+                                    </ul>
+                                </li>
+                                <li class='active'><a href='#'>Imóveis</a>
+                                    <ul>
+                                        <li><a href='#'>Aluguel</a>
+                                            <ul>
+                                                <li><a href='imoveis.html#residencial-aluguel'>Residenciais</a></li>
+                                                <li><a href='imoveis.html#comercial-aluguel'>Comerciais</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href='#'>Venda</a>
+                                            <ul>
+                                                <li><a href='imoveis.html#residencial-venda'>Residenciais</a></li>
+                                                <li><a href='imoveis.html#comercial-venda'>Comerciais</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href='index.html'>Home</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="bk-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <a class="links" id="paracadastro"></a>
+                <a class="links" id="paralogin"></a>
+                <div class="content">
+                    <!--FORMULÁRIO DE LOGIN-->
+                    <div id="login1">
+                        <form method="post" action="">
+                            <h1>Login</h1>
+                            <p>
+                                <label for="login-email">Email</label>
+                                <input id="login-email" name="login-email" required="required" type="text"
+                                    placeholder="ex. contato@htmlecsspro.com" />
+                            </p>
+
+                            <p>
+                                <label for="login-senha">Senha</label>
+                                <input id="login-senha" name="login-senha" required="required" type="password"
+                                    placeholder="ex. senha" />
+                            </p>
+
+                            <p id=error>
+                                email e/ou senha invalido.
+                            </p>
+
+                            <p>
+                                <input type="checkbox" name="manterlogado" id="manterlogado" value="" />
+                                <label for="manterlogado">Manter-me logado</label>
+                            </p>
+
+                            <p>
+                                <input id="submit-button" type="submit" value="Logar" />
+                            </p>
+
+                            <p class="link">
+                                Ainda não tem conta?
+                                <a href="#paracadastro">Cadastre-se</a>
+                            </p>
+                        </form>
+                    </div>
+                    <!--FORMULÁRIO DE CADASTRO-->
+                    <div id="cadastro">
+                        <form method="post" action="">
+                            <h1>Cadastro</h1>
+
+                            <p>
+                                <label for="nome_cad">Seu nome</label>
+                                <input id="nome_cad" name="nome_cad" required="required" type="text"
+                                    placeholder="nome" />
+                            </p>
+
+                            <p>
+                                <label for="email_cad">Seu e-mail</label>
+                                <input id="email_cad" name="email_cad" required="required" type="email"
+                                    placeholder="contato@htmlecsspro.com" />
+                            </p>
+
+                            <p>
+                                <label for="senha_cad">Sua senha</label>
+                                <input id="senha_cad" name="senha_cad" required="required" type="password"
+                                    placeholder="ex. 1234" />
+                            </p>
+
+                            <p>
+                                <input type="submit" value="Cadastrar" />
+                            </p>
+
+                            <p class="link">
+                                Já tem conta?
+                                <a href="#paralogin"> Ir para Login </a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <footer class="container-fluid text-center">
+        <div class="rodape">
+            <div class="rodape-contatos">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img id="telefone" src="img\icones\telefone.png" alt="Telefone da empresa">
+                        <a href="tel:2422470524">(24) 2247-0524</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="zap" src="img\icones\zap.png" alt="Whatsapp da empresa">
+                        <a href="tel:24992786546">(24) 99278-6546</a>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="email" src="img\icones\email.png" alt="Email da empresa">
+                        <a href="mailto:fabiene.avilla@gmail.com">fabiene.avilla@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="rodape-social">
+                    <div class="col-md-6">
+                        <a href="http://facebook.com" target="_blank"><img id="facebook" src="img\icones\facebook.png"
+                                alt="Página do facebook da empresa"></a>
+                        <a href="http://instagram.com" target="_blank"><img id="instagram"
+                                src="img\icones\instagram.png" alt="Página do Instagram da empresa"></a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="#cssmenu"><img id="home" src="img\icones\seta.png" alt="Página inicial da empresa"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/login.js"></script>
+<script src="js/cadastro.js"></script>
+
+</html>

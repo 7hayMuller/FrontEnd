@@ -1,0 +1,68 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+*{
+    font-family: Montserrat, sans-serif;
+}
+
+.quem-somos {
+    text-align: center;
+    color: #1d2731;
+    margin-left: 15%;
+    padding-top: 3%;
+}
+
+.quem-somos p {
+    font-size: 20px;
+}
+
+.servicos {
+    text-align: center;
+    color: #1d2731;
+    margin-left: 15%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.servicos ul li {
+    color: #1d2731;
+    margin-left: 35%;
+    text-align: left;
+    clear: left;
+    font-size: 20px;
+}
+
+.row {
+    width: 100%;
+}
+
+.transparencia {
+    width: 100%;
+    background: rgba(33, 12, 165, 0.8);
+    background: -webkit-linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(183, 183, 189, 0.8));
+    background: -o-linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(199, 199, 233, 0.8));
+    background: -moz-linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(199, 199, 233, 0.8));
+    background: linear-gradient(45deg, rgba(39, 65, 212, 0.767), rgba(199, 199, 233, 0.8));
+}
+
+.transparencia:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+h1 {
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #0b3c5b;
+}
+
+a {
+    font-size: 14px;
+    line-height: 1.7;
+    color: white;
+    margin: 0px;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+}
